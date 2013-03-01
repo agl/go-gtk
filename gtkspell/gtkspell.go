@@ -8,7 +8,7 @@ package gtkspell
 static GtkTextView* to_GtkTextView(void* w) { return GTK_TEXT_VIEW(w); }
 static inline gchar* to_gcharptr(const char* s) { return (gchar*)s; }
 */
-// #cgo pkg-config: gtkspell-3.0
+// #cgo pkg-config: gtkspell-2.0
 import "C"
 import "unsafe"
 
