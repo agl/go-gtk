@@ -26,7 +26,7 @@ static inline gchar** next_gcharptr(gchar** s) { return (s+1); }
 static inline void free_string(char* s) { free(s); }
 static GtkSourceView* to_GtkSourceView(void* w) { return GTK_SOURCE_VIEW(w); }
 */
-// #cgo pkg-config: gtksourceview-2.0
+// #cgo pkg-config: gtksourceview-3.0
 import "C"
 import "github.com/agl/go-gtk/gtk"
 import "unsafe"
